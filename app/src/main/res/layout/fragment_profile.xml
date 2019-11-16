@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include
+            layout="@layout/layout_center_profile"
+            android:id="@+id/centerprofile1"
+            android:layout_width="0dp"
+            android:layout_height="4dp" />
+
+
+       <!-- <androidx.core.widget.ContentLoadingProgressBar
+            android:id="@+id/profileProgressBar"
+            android:layout_width="110dp"
+            android:layout_height="114dp"
+            android:layout_marginTop="100dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />-->
+
+    </RelativeLayout>
+
+</RelativeLayout>

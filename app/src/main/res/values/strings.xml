@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Instagram</string>
+
+    <string name="text_favorites"></string>
+    <string name="text_schedules">schedule</string>
+    <string name="text_music">music</string>
+    <string name="edit_profile_fragment">Edit Profile</string>
+    <string name="sign_out_fragment">Sign Out</string>
+    <string name="profile_fragment">Profile</string>
+
+    <string name="calling_activity">calling_activity</string>
+    <string name="profile_activity">Profile Activity</string>
+
+    <string name="gallery">GALLERY</string>
+    <string name="photo">PHOTO</string>
+    <string name="string_open_camera">Open Camera</string>
+    <string name="view_summary">Open Camera</string>
+
+
+</resources>

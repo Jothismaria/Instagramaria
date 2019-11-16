@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="MissingDefaultResource">
+
+
+<RelativeLayout
+    android:id="@+id/rel_Header"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/civ_profile"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_centerVertical="true"
+        android:scaleType="centerCrop"
+        app:srcCompat="@mipmap/ic_launcher"
+        />
+    <RelativeLayout
+        android:id="@+id/rel_HeaderDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="5dp"
+        android:layout_toEndOf="@+id/civ_profile"
+        >
+
+        <TextView
+            android:id="@+id/tv_Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text=" Name"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            />
+
+
+        <TextView
+            android:id="@+id/ploc"
+            android:layout_below="@id/tv_Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_margin="5dp"
+            tools:text="Location" />
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/iv_Content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:layout_below="@+id/rel_Header"
+        />
+    <RelativeLayout
+        android:id="@+id/rel_Footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_Content"
+        >
+
+        <RelativeLayout
+            android:id="@+id/rel_LikeComment"
+            android:layout_width="match_parent"
+            android:layout_height="56dp">
+            <com.like.LikeButton
+                app:icon_size="25dp"
+                android:id="@+id/star_button"
+                app:icon_type="heart"
+                app:circle_start_color="@color/colorPrimary"
+                app:like_drawable="@drawable/ic_hearts"
+                app:unlike_drawable="@drawable/ic_like"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="10dp"
+                />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/iv_Comment"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                app:srcCompat="@drawable/comment"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:layout_toEndOf="@+id/star_button"
+
+                />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/iv_Send"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                app:srcCompat="@drawable/send"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:layout_toEndOf="@+id/iv_Comment"
+
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rel_Like"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rel_LikeComment"
+            >
+            <TextView
+                android:id="@+id/tv_LikesCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="100 Likes"
+                android:layout_marginStart="10dp"
+                />
+            <TextView
+                android:id="@+id/tv_CommentValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/tv_LikesCount"
+                tools:text="Hi"
+                android:layout_marginStart="10dp"
+                />
+
+
+
+        </RelativeLayout>
+
+
+
+
+
+    </RelativeLayout>
+
+
+    <!--TextView
+        android:id="@+id/pname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text=" Name"
+        android:textSize="20sp"
+        android:textAppearance="?attr/textAppearanceListItem" />
+
+
+
+
+    <TextView
+        android:id="@+id/ploc"
+        android:layout_below="@id/pname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?attr/textAppearanceListItem"
+        tools:text="Location" />
+    <ImageView
+        android:id="@+id/pimage"
+        android:layout_width="match_parent"
+        android:layout_height="617dp"
+        android:layout_below="@+id/ploc"
+        android:contentDescription="TODO"
+        android:scaleType="centerCrop"
+        tools:src="@mipmap/ic_launcher" />
+    <TextView
+        android:id="@+id/pdesc"
+        android:layout_below="@id/pimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?attr/textAppearanceListItem"
+        tools:text="Likes" />
+    <TextView
+        android:id="@+id/comment"
+        android:layout_below="@id/pdesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textAppearance="?attr/textAppearanceListItem"
+        tools:text=" Comment" />
+-->
+    </RelativeLayout>
+
+
+

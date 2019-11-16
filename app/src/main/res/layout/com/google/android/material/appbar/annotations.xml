@@ -1,0 +1,5 @@
+<root>
+    <item name='com.google.android.material.appbar.AppBarLayout'>
+        <annotation name='java.lang.Deprecated' />
+    </item>
+</root>

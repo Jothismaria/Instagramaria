@@ -1,0 +1,40 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="358dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/white_grey_bottom">
+
+            <TextView
+
+                android:id="@+id/profileName"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="__miss__maria_"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <ImageView
+            android:layout_width="53dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:id="@+id/menu"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp"
+            android:src="@drawable/menu"/>
+    </RelativeLayout>
+
+</merge>
+
+
+
+
+
+

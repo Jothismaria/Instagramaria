@@ -1,0 +1,31 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="0dp"
+            android:background="@drawable/white_grey_bottom">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="2dp"
+                android:id="@+id/liketopbar"
+                android:text="Activity"
+                android:textSize="30sp"></TextView>
+        </com.google.android.material.appbar.AppBarLayout>
+
+
+    </RelativeLayout>
+
+</merge>
+
+
+
+
+
+
